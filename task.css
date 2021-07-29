@@ -1,0 +1,34 @@
+h1 {
+    text-align: right;
+    color: white;
+    background-color: rgb(56, 197, 192);
+    padding: 1.4rem;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+}
+body {
+    background-color: rgb(216, 120, 192);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+
+}
+
+.hide{
+    display: none;
+}
+
+#list, #capture-form{
+    display: inline-block;
+    border: 1px solid black;
+}
+.container-fluid {
+    display: flex;
+}
+#list{
+    flex: 2;
+}
+#capture-form{
+    flex: 1;
+}
